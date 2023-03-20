@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:wght@400;600&display=swap');
+
+
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+body 
+{
+    height: 100vh;
+    box-sizing: border-box;
+    background-color: black;
+    color: #F6F6F6;
+}
+
+.h1destaque
+{
+    color: #22D4FD;
+}
+
+.apresentacao
+{
+    margin: 10% 15%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.apresentacao_conteudo /*section com os elementos h1,paragrafos e ancoras dentro*/
+{
+        width: 615px;
+        display: flex;
+        /*Ao definir o valor da propriedade de um elemento como display, criamos um contêiner flex,
+         ou seja, passamos a utilizar o Flexbox. A partir desse ponto, todos os elementos que estão
+          dentro do contêiner são chamados de elementos-filhos e apresentarão 
+          comportamentos padronizados.*/
+        flex-direction: column; 
+        /*display flex deixa por padrao em rows
+        o flex direction arruma para colunas*/
+        gap: 40px; /*gap entre os elementos que estao dentro do section*/
+}
+
+.apresentacao_conteudo_titulo 
+{
+    font-size: 36px;
+    font-family: 'Krona One', sans-serif;
+}
+
+.apresentacao_conteudo_texto 
+{
+    font-size: 24px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.apresentacao_links 
+{
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    align-items: center;
+}
+
+.apresentacao_links_link 
+{
+    background-color: #22D4FD;
+    width: 280px;
+    text-align: center; /*alinhar o texto no meio*/
+    border-radius: 16px; /*Arredondar borda*/
+    font-size: 24px; 
+    font-weight: 600; 
+    padding: 21.5px 0; /*espaçamento dentro do elemento, primeiro altura depois largura*/
+    text-decoration: none; /*Retirar o sublinhado*/
+    color: black;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.h2redes
+{
+    font-size: 24px;
+    font-family: 'Krona One', sans-serif;
+}
