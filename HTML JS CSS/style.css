@@ -9,10 +9,33 @@
 
 body 
 {
-    height: 100vh;
+    /* preencher toda pagina com o body -> height: 100vh; */
     box-sizing: border-box;
     background-color: black;
     color: #F6F6F6;
+}
+
+.cabecalho 
+{
+           /*superior*/   /*direito*/   /*baixo*/    /*esquerda*/
+    padding:  4%                0%         0%         18%;
+}
+
+
+.cabecalho_menu
+{
+    display: flex;
+    gap: 80px;
+}
+
+.cabecalho_menu_link
+{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+    text-decoration: none;
+    color: #22D4FD;
+
 }
 
 .h1destaque
@@ -22,7 +45,7 @@ body
 
 .apresentacao
 {
-    margin: 10% 15%;
+    margin: 4% 15%;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -62,22 +85,44 @@ body
     align-items: center;
 }
 
+.h2_subtitulo
+{
+    font-size: 24px;
+    font-weight: 400;
+    font-family: 'Krona One', sans-serif;
+
+}
+
 .apresentacao_links_link 
 {
-    background-color: #22D4FD;
-    width: 280px;
-    text-align: center; /*alinhar o texto no meio*/
-    border-radius: 16px; /*Arredondar borda*/
+    display: flex;
+    width: 378px;
+    justify-content: center; /*alinha todos itens no meio*/
+    gap: 16px;
+    /*text-align: center; alinhar o texto no meio*/
+    border-radius: 8px; /*Arredondar borda*/
+    border: 2px solid #22D4FD; /*Borda do botao*/
     font-size: 24px; 
     font-weight: 600; 
     padding: 21.5px 0; /*espaçamento dentro do elemento, primeiro altura depois largura*/
     text-decoration: none; /*Retirar o sublinhado*/
-    color: black;
+    color: #F6F6F6;
     font-family: 'Montserrat', sans-serif;
 }
 
-.h2redes
+.apresentacao_links_link:hover 
 {
+    background-color: #272727;
+    color: green;
+}
+
+.rodape 
+{
+    color: #000;
+    background-color: #22D4FD;
+    font-family: 'Montserrat', sans-serif;
     font-size: 24px;
-    font-family: 'Krona One', sans-serif;
+    font-weight: 400;
+    padding: 23.64px 719px;
+
 }
