@@ -1,0 +1,92 @@
+:root {
+      --fonte-principal :'Gruppo', cursive;
+      --cor-principal: rgb(202, 60, 245);
+      color: white;
+      --open: green;
+      --closed: red;
+      font-family: var(--fonte-principal);
+      
+
+  }
+  
+  body {
+
+    margin: 0;
+    background-image: url("/css/images/background.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+  }
+  
+  * {
+    margin: 0;
+    padding: 0;
+  }
+
+  .container {
+    height: 100%;
+    width: 100%;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 100%;
+    text-align: center;
+  }
+
+  .divCentral {
+    max-width: 100%;
+}
+  
+.imagem1 {
+    border-radius: 20%;
+    max-width:450px;
+    width: auto;
+    height: auto;
+}
+
+.div3 {
+ margin: 2rem 0 1.5rem;
+ 
+}
+
+.p{
+  font-size: 22px;
+}
+
+.status{
+  color: var(--open);
+  font-size: 22px;
+}
+
+.div2{
+  text-align: center;
+}
+
+.buttonsUL {
+  display: flex;
+
+  max-width: 13rem;
+  list-style-type: none;
+  align-items: center;
+  margin: 1rem 1rem 1rem 1rem;
+  text-align: center;
+}
+
+.botoes{
+  display: inline-block;
+  text-decoration: none;
+  color: var(--cor-principal);
+  width: 9rem;
+  border-radius: 0.375rem;
+  border: solid 1px white;
+  letter-spacing: 0.1rem;
+  padding: 15px;
+  margin: 5px;
+}
+
+.logos{
+  width: 40px;
+  height: 40px;
+  padding: 10px;
+}
